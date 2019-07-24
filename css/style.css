@@ -8,16 +8,46 @@
 html, body {
 	margin: 0;
 	box-sizing: border-box;
+	color: #01ff00;
 }
 
 .container {
+	min-width: 60em;
+}
+header {
 	margin: 0 auto;
 	padding: 0 2rem;
+	color: #00ff00;
+	background-color: #333333;
 }
 
+tr, th, td {
+	border: solid white 0.01em;
+	color: #01ff00;
+	background: #333333 ;
+}
+
+.instructions-wrapper {
+	border: 4px solid black;
+	color:black;
+}
+
+.about-me {
+	background-color:#0000ff ;
+	color:white;
+}
+
+span {
+color:#ffff00;
+font-style:italic;
+}
+.form-wrapper {
+	background-color: #006400;
+}
 .clearfix {
 	clear: both;
 }
+
 
 /* create a responsive container */
 @media only screen and (min-width: 1200px) {
