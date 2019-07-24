@@ -8,11 +8,10 @@
 html, body {
 	margin: 0;
 	box-sizing: border-box;
-	color: #01ff00;
+	color: white;
 }
 
 .container {
-	min-width: 60em;
 }
 header {
 	margin: 0 auto;
@@ -32,11 +31,23 @@ tr, th, td {
 	color:black;
 }
 
+.form-wrapper {
+	color: #01ff00;
+}
+
 .about-me {
 	background-color:#0000ff ;
 	color:white;
 }
 
+button {
+	background-color:#00ff00;
+}
+
+footer {
+	background-color: black;
+	color:white;
+}
 span {
 color:#ffff00;
 font-style:italic;

@@ -45,7 +45,7 @@
 
 			<!-- ABOUT ME -->
 			<section class="about-me">
-				<div class="container">z
+				<div class="container">
 					<img src="images/stunning.jpg" alt="captain picard" />
 					<h2>A Day in the Life...</h2>
 					<p>Engage! Some days you get the bear, and some days the bear gets you. I'd like to think that I
