@@ -3,15 +3,12 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-
 		<!-- custom CSS stylesheet -->
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
-
 		<title>CSS Mockup Activity</title>
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
-
 			<!-- HEADER -->
 			<header>
 				<div class="container">
@@ -19,14 +16,11 @@
 					<em>Computer Scientist. Cat Lover. Picard Fan.</em>
 				</div>
 			</header>
-
 			<!-- INSTRUCTIONS PANEL -->
 			<section>
 				<div class="container">
-
 					<!-- WELCOME IMAGE -->
 					<img src="images/welcome.gif" alt="welcome to my homepage">
-
 					<div class="instructions-wrapper">
 						<div class="instructions-content">
 							<h2>Instructions</h2>
@@ -41,25 +35,17 @@
 						<div class="clearfix"></div>
 					</div><!--/.instructions-->
 				</div><!--/.container-->
-			</section>
-
+<!--			</section>-->
 			<!-- ABOUT ME -->
 			<section class="about-me">
 				<div class="container">
 					<img src="images/stunning.jpg" alt="captain picard" />
 					<h2>A Day in the Life...</h2>
-					<p>Engage! Some days you get the bear, and some days the bear gets you. I'd like to think that I
-						haven't changed those things, sir. Did you come here for something in particular or just general
-						Riker-bashing? That might've been one of the shortest assignments in the history of Starfleet.</p>
-					<p>Hiss and stare at nothing then run suddenly away. Bare fangs at toy run hide in litter box until
-						treats are fed toy mouse squeak roll over yet stare at the wall, play with food and get confused by
-						dust. Chase dog then run away drink water out of the faucet for find a way to fit in tiny box.
-						<span>Groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for
-						the rest of the day - checked!</span></p>
+					<p>Engage! Some days you get the bear, and some days the bear gets you. I'd like to think that I haven't changed those things, sir. Did you come here for something in particular or just general Riker-bashing? That might've been one of the shortest assignments in the history of Starfleet.</p>
+					<p>Hiss and stare at nothing then run suddenly away. Bare fangs at toy run hide in litter box until treats are fed toy mouse squeak roll over yet stare at the wall, play with food and get confused by dust. Chase dog then run away drink water out of the faucet for find a way to fit in tiny box. <span>Groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked!</span></p>
 					<div class="clearfix"></div>
 				</div>
 			</section>
-
 			<!-- PROFESSIONAL SKILLZ -->
 			<section>
 				<div class="container">
@@ -88,7 +74,6 @@
 					</table>
 				</div><!--/.container-->
 			</section>
-
 			<!-- CONTACT FORM -->
 			<section>
 				<div class="container">
@@ -99,35 +84,29 @@
 								<label for="name">Name</label>
 								<input type="text" name="name" id="name" />
 							</div>
-
 							<div>
 								<label for="emailEmail">Email</label>
 								<input type="email" name="email" id="email" />
 							</div>
-
 							<div>
 								<label for="subject">Subject</label>
 								<input type="text" name="subject" id="subject" />
 							</div>
-
 							<div>
 								<label for="message">Message</label>
 								<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
 							</div>
-
 							<button type="reset">Reset</button>
 							<button type="submit">Send!</button>
 						</form>
 					</div>
 				</div>
 			</section>
-
 		</div><!--/.sfooter-content-->
-
 		<footer>
 			<div class="container">
 				<h4>Best viewed with Netscape Navigator. Proudly hosted by GeoCities.</h4>
-			</div>
+			</div> <!--class container--->
 		</footer>
 	</body>
 </html>
