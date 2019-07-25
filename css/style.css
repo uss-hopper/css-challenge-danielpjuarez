@@ -6,13 +6,19 @@
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
 html, body {
-	margin: 0;
 	box-sizing: border-box;
 	color: white;
+	font-family: sans-serif;
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
 }
 
 .container {
+	color: black;
 }
+
 header {
 	margin: 0 auto;
 	padding: 0 2rem;
@@ -27,7 +33,7 @@ tr, th, td {
 }
 
 .instructions-wrapper {
-	border: 4px solid black;
+	border: 0.25em solid black;
 	color:black;
 }
 
@@ -37,11 +43,11 @@ tr, th, td {
 
 .about-me {
 	background-color:#0000ff ;
-	color:white;
 }
 
 button {
 	background-color:#00ff00;
+	border-color: #01ff00;
 }
 
 footer {
