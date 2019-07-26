@@ -7,27 +7,55 @@
 ******************************************************/
 html, body {
 	font-family: sans-serif;
+	padding: 0;
+}
+.container {
+	margin:auto;
+	width: 100%;
+
 }
 
 header {
 	margin: 0 auto;
-	padding: 0 2rem;
+	padding: 10px;
 	background-color: #333333;
 	color: #01ff00;
 }
 
+img {
+	display:block;
+	margin:auto;
+}
+
 .instructions-wrapper {
-	border: 0.25em solid black;
+	border: 4px solid black;
+	padding: 10px;
 	color:black;
+	height: 250px;
+
+	}
+
+	.instructions-wrapper img {
+		float:right;
+		overflow:auto;
+		width: 300px;
+		height: auto;
 }
 
 .about-me {
 	background-color:#0000ff ;
 	color: white;
+	padding: 10px;
+	max-height: 200px;
+}
+	.about-me img {
+		float:left;
+		border: 3px solid white;
+		margin: 20px;
 }
 
 tr, th, td {
-	border: solid white 0.01em;
+	border: solid white 2px;
 	color: #01ff00;
 	background: #333333 ;
 }
